@@ -1,0 +1,97 @@
+/* Styling the body */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Styling the first parallax's height, width and background color */
+.parallax-1 {
+    width: 100%;
+    height: 600px;
+    background: url('P1BG1.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* Styling the title of first parallax */
+.parallax-1 h1 {
+    margin: auto;
+    position: relative;
+    right: 330px;
+    top: 100px;
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+    color: yellow;
+    font-size: 70pt;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Styling the second parallax's height, width and background color */
+.parallax-2 {
+    width: 100%;
+    height: 600px;
+    background: url("P2B.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* Styling the title of second parallax */
+.parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 200px;
+    height: 37px;
+    padding: 10px;
+    background-color: rgb(148, 222, 235);
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+}
+/* Styling the content or paragraph */
+.para-1 {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+/* Styling the content or paragraph */
+.para-2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+/* Styling the content of Title */
+.para-T {
+    margin: auto;
+    position: relative;
+    top: 400px;
+    padding: 10px;
+    color: rgb(110, 243, 110);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+/* Styling the third parallax's height, width and background color */
+.parallax-3 {
+    width: 100%;
+    height: 600px;
+    background: url('Contacts.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* Styling the ul to be horizontal with blocks */
+ul li{
+    display:inline-block;
+    width: 600px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
